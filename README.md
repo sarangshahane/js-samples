@@ -68,7 +68,7 @@ The following table identifies the inputs and outputs.
 
 - [Google Maps Documentation](https://developers.google.com/maps/documentation/javascript/tutorial)
 - [Google Maps Reference Documenations](https://developers.google.com/maps/documentation/javascript/reference/)
-- [Google Maps Typings](https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/googlemaps) - Community supported `npm i -D @types/googlemaps`
+- [Google Maps Typings](https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/google-maps-web) - `npm i -D @types/google-maps-web`
 - [Google Maps Utilitiies](https://github.com/googlemaps/v3-utility-library)
 
 ## Support
