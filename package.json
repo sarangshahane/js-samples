@@ -29,7 +29,6 @@
     "format": "bazel run eslint-fix && prettier *.json *.js shared/**/*.scss --write --loglevel error",
     "start": "bazel run :serve",
     "test": "bazel test //...",
-    "test:tags": "./build/test_tags.sh",
     "test:e2e": "bazel test //e2e:e2e"
   },
   "dependencies": {

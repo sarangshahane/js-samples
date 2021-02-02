@@ -31,18 +31,18 @@ Replace `map-simple` with the path to another sample in this repository.
 
 ### Build
 
-1. Use Bazel to build `bazel build ...` or `bazel build //samples/map-simple/...`
-1. Update dist `bazel build public.tar` and `tar xf bazel-bin/public.tar -C dist`
+1. `npm i`
+1. `npm run build`
 
 ### Test
 
-1. Use Bazel to run tests with `bazel test ...` or `bazel test //samples/map-simple/...`
-1. Run the dist diff tests `bazel test dist:diff`
-1. Run e2e tests `npx selenium-standalone install && npx selenium-standalone start` and then run `bazel test e2e:e2e`
+1. `npm run lint` - fix with `npm run format`
+1. `npm test`
 
 ### Run
 
 1. Set the environment variable `export GOOGLE_MAPS_JS_SAMPLES_KEY=YOUR_KEY`.
+1. `npm start` to run and debug all samples
 1. Start a server with all samples using `bazel run serve` (or `ibazel` for faster live reload)
 1. Start a specific sample with `bazel run samples/map-simple:devserver` (or `ibazel` for faster live reload)
 
